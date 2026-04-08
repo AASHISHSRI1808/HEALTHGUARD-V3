@@ -103,37 +103,6 @@ npm start
 
 ---
 
-## 🔐 Environment Variables (backend/.env)
-
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/healthguard
-JWT_SECRET=your_super_secret_key
-JWT_EXPIRE=7d
-
-# HARDCODED ADMIN
-ADMIN_EMAIL=admin@healthguard.com
-ADMIN_PASSWORD=Admin@123
-
-# Gmail SMTP
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your_gmail@gmail.com
-EMAIL_PASS=your_app_password     # Gmail App Password (not regular password)
-EMAIL_FROM=Health Guard <noreply@healthguard.com>
-
-# Razorpay (Test Mode)
-RAZORPAY_KEY_ID=rzp_test_XXXXXXXX
-RAZORPAY_KEY_SECRET=XXXXXXXXXXXXXXXX
-
-# Python ML Service
-ML_SERVICE_URL=http://localhost:8000
-
-# Frontend
-FRONTEND_URL=http://localhost:3000
-```
-
----
 
 ## 🧠 ML Models
 
