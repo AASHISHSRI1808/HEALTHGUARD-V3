@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
-saved_models/
-datasets/
+
 .env
 venv/
